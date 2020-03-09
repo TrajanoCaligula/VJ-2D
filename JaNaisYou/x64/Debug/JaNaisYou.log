@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 09/03/2020 11:35:02.
+     1>Proyecto "C:\Users\jaume.malgosa\VJ\JaNaisYou\JaNaisYou.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Game.cpp Player.cpp Scene.cpp Shader.cpp ShaderProgram.cpp Sprite.cpp Texture.cpp TileMap.cpp main.cpp
+         main.cpp
+         TileMap.cpp
+         Texture.cpp
+         Sprite.cpp
+         ShaderProgram.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\shaderprogram.h(5): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+         Shader.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\shader.h(6): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+         Scene.cpp
+         Player.cpp
+         Game.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\game.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+         Generando código...
+     1>Compilación del proyecto terminada "C:\Users\jaume.malgosa\VJ\JaNaisYou\JaNaisYou.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.68
