@@ -1,22 +1,28 @@
-﻿Compilación iniciada a las 09/03/2020 11:35:02.
+﻿Compilación iniciada a las 09/03/2020 11:44:00.
      1>Proyecto "C:\Users\jaume.malgosa\VJ\JaNaisYou\JaNaisYou.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Game.cpp Player.cpp Scene.cpp Shader.cpp ShaderProgram.cpp Sprite.cpp Texture.cpp TileMap.cpp main.cpp
-         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"..\libs\Simple OpenGL Image Library\src" /I..\libs\freeglut\include /I"..\libs\glew-1.13.0\include" /I..\libs\glm /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Game.cpp main.cpp Player.cpp Scene.cpp Shader.cpp ShaderProgram.cpp Sprite.cpp Texture.cpp TileMap.cpp
          TileMap.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\tilemap.cpp(6): error C2511: 'TileMap::TileMap(void)': la función miembro sobrecargada no se ha encontrado en 'TileMap'
+         c:\users\jaume.malgosa\vj\janaisyou\tilemap.h(17): note: vea la declaración de 'TileMap'
          Texture.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\texture.cpp(11): error C2600: 'Texture::~Texture': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
          Sprite.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\sprite.cpp(6): error C2511: 'Sprite::Sprite(void)': la función miembro sobrecargada no se ha encontrado en 'Sprite'
+         c:\users\jaume.malgosa\vj\janaisyou\sprite.h(17): note: vea la declaración de 'Sprite'
+     1>c:\users\jaume.malgosa\vj\janaisyou\sprite.cpp(11): error C2600: 'Sprite::~Sprite': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
          ShaderProgram.cpp
-     1>c:\users\jaume.malgosa\vj\janaisyou\shaderprogram.h(5): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+     1>c:\users\jaume.malgosa\vj\janaisyou\shaderprogram.cpp(11): error C2600: 'ShaderProgram::~ShaderProgram': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
          Shader.cpp
-     1>c:\users\jaume.malgosa\vj\janaisyou\shader.h(6): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
          Scene.cpp
          Player.cpp
+     1>c:\users\jaume.malgosa\vj\janaisyou\player.cpp(6): error C2600: 'Player::Player': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
+     1>c:\users\jaume.malgosa\vj\janaisyou\player.cpp(11): error C2600: 'Player::~Player': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
+         main.cpp
          Game.cpp
-     1>c:\users\jaume.malgosa\vj\janaisyou\game.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
          Generando código...
      1>Compilación del proyecto terminada "C:\Users\jaume.malgosa\VJ\JaNaisYou\JaNaisYou.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.68
+Tiempo transcurrido 00:00:02.67
