@@ -1,22 +1,28 @@
-﻿Compilación iniciada a las 09/03/2020 11:35:02.
-     1>Proyecto "C:\Users\jaume.malgosa\VJ\JaNaisYou\JaNaisYou.vcxproj" en el nodo 2 (Build destinos).
+﻿Compilación iniciada a las 09/03/2020 11:46:36.
+     1>Proyecto "C:\Users\fernando.marimon\Desktop\Jana\JaNaisYou\JaNaisYou.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Game.cpp Player.cpp Scene.cpp Shader.cpp ShaderProgram.cpp Sprite.cpp Texture.cpp TileMap.cpp main.cpp
-         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Game.cpp main.cpp Player.cpp Scene.cpp Shader.cpp ShaderProgram.cpp Sprite.cpp Texture.cpp TileMap.cpp
          TileMap.cpp
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\tilemap.h(5): fatal error C1083: No se puede abrir el archivo incluir: 'glm/glm.hpp': No such file or directory
          Texture.cpp
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\texture.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'SOIL.h': No such file or directory
          Sprite.cpp
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\sprite.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
          ShaderProgram.cpp
-     1>c:\users\jaume.malgosa\vj\janaisyou\shaderprogram.h(5): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\shaderprogram.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'glm/gtc/type_ptr.hpp': No such file or directory
          Shader.cpp
-     1>c:\users\jaume.malgosa\vj\janaisyou\shader.h(6): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\shader.h(6): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
          Scene.cpp
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\scene.cpp(3): fatal error C1083: No se puede abrir el archivo incluir: 'glm/gtc/matrix_transform.hpp': No such file or directory
          Player.cpp
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\player.cpp(3): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+         main.cpp
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\main.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
          Game.cpp
-     1>c:\users\jaume.malgosa\vj\janaisyou\game.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
+     1>c:\users\fernando.marimon\desktop\jana\janaisyou\game.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'GL/glew.h': No such file or directory
          Generando código...
-     1>Compilación del proyecto terminada "C:\Users\jaume.malgosa\VJ\JaNaisYou\JaNaisYou.vcxproj" (Build destinos) -- ERROR.
+     1>Compilación del proyecto terminada "C:\Users\fernando.marimon\Desktop\Jana\JaNaisYou\JaNaisYou.vcxproj" (Build destinos) -- ERROR.
 
 ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.68
+Tiempo transcurrido 00:00:00.92
